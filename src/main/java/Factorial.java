@@ -6,7 +6,7 @@ public class Factorial {
             throw new IllegalArgumentException("Negative number");
         }
 
-        long result = 1;
+        long result = 1L;
 
         for (int i = 2; i <= n; i++) {
             result *= i;
